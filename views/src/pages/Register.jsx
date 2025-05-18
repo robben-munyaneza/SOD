@@ -32,7 +32,7 @@ function Register() {
 <div className='w-full max-w-md p-8 space-y-8 bg-white rouded-lg shadow-lg'>
 <h1 className='text-3xl font-bold text-center text-amber-800'>Register</h1>
       
-<form onSubmit={handleSubmit} className='space-y-6'>
+<frm onSubmit={handleSubmit} className='space-y-6'>
 <div className='space-y-2'>
 <label className='block text-sm font-medium text-amber-700'>Username</label>
 <input type="text" name="username" onChange={handleChange}  placeholder='username' className='w-full px-3 py-2 border-amber-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500'
@@ -54,10 +54,10 @@ required/>
         <button type="submit" className='w-full py-2 px-4 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-md transition duration-300'>Register</button>
         <p className='text-center text-sm text-gray-600'>Already have an account? 
           <a href="/login" className='ml-1 text-amber-600 hover:text-amber-800 font-medium'>Login</a></p>
-    </form>
+  </frm>
     </div>
    </div>
   )
 }
-
+  
 export default Register
